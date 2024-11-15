@@ -35,3 +35,15 @@ Esta aplicación es ideal para cualquier persona interesada en mejorar su gesti�
 - Pequeñas empresas o emprendedores que desean categorizar y analizar presupuestos básicos.
 
 ---
+
+## Enlace de la Página
+
+- https://angel09191.github.io/app_presupuesto/
+
+# App para Android
+
+- Al clonar o descargar el repositorio, vendra la aplicación:
+
+                app-debug.apk
+
+- Pasarla a su dispositivo e instalarla para probarla(cabe resaltar que esta libre de virus por si salta alguna alarma en su dispositivo)
