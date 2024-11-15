@@ -1,0 +1,149 @@
+/* Fuente de Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente limpia y moderna */
+    background-color: #f4f9f4; /* Fondo más suave y fresco */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px; /* Bordes más suaves */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombras más suaves y profundas */
+    text-align: center; /* Centramos el contenido */
+}
+
+h1, h3 {
+    color: #2e7d32; /* Verde fuerte para los títulos */
+    font-family: 'Poppins', sans-serif; /* Fuente más dinámica para los títulos */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px; /* Bordes redondeados */
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+input[type="number"] {
+    text-align: right; /* Para facilitar la lectura de números */
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #4caf50; /* Verde más brillante para el botón */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave */
+}
+
+button:hover {
+    background-color: #388e3c; /* Un verde más oscuro al pasar el ratón */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+#budget-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+#budget-list li {
+    background-color: #ffffff;
+    width: 48%;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#budget-list li:hover {
+    transform: translateY(-5px); /* Elevación al pasar el ratón */
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2); /* Más sombra al pasar el ratón */
+}
+
+#budget-list li .category {
+    background-color: #66bb6a; /* Verde más suave para la categoría */
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+#budget-list li h4 {
+    margin: 10px 0;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #333;
+}
+
+#budget-list li p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.edit-btn, .delete-btn {
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.edit-btn {
+    color: #ffffff;
+    background-color: #007bff; /* Azul más suave */
+}
+
+.edit-btn:hover {
+    background-color: #0056b3; /* Azul oscuro al pasar el ratón */
+}
+
+.delete-btn {
+    color: #ffffff;
+    background-color: #dc3545; /* Rojo más suave */
+}
+
+.delete-btn:hover {
+    background-color: #c82333; /* Rojo más oscuro al pasar el ratón */
+}
+
+#budget-list li .amount {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #388e3c; /* Verde oscuro para los montos */
+}

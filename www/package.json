@@ -1,0 +1,12 @@
+{
+  "name": "app-presupuetsto_temporal",
+  "version": "1.0.0",
+  "description": "Revisen las 2 versiones, si quieren abrirlo solo en el pc y ya pus vean solo la segunda :).",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
